@@ -1,0 +1,96 @@
+name: Daily dashboard update
+
+on:
+  schedule:
+    # GitHub cron is UTC only. 10:00 UTC = 3am PDT, 11:00 UTC = 3am PST.
+    # Both are listed; the "gate" step below lets only the one that is 3am Pacific run.
+    - cron: "0 10 * * *"
+    - cron: "0 11 * * *"
+  workflow_dispatch:
+    inputs:
+      api_test_only:
+        description: "Only test whether NBA.com answers from GitHub (changes nothing)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: dashboard-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install libraries
+        run: pip install -r requirements.txt
+
+      - name: Test NBA API connection (manual test only)
+        if: github.event_name == 'workflow_dispatch' && inputs.api_test_only
+        run: |
+          python - <<'PY'
+          from nba_api.stats.endpoints import leaguegamelog
+          df = leaguegamelog.LeagueGameLog(
+              season='2026-27',
+              player_or_team_abbreviation='T',
+              season_type_all_star='Regular Season',
+          ).get_data_frames()[0]
+          print('NBA.com answered. Team game rows:', len(df))
+          PY
+
+      - name: Gate (3am Pacific only, and skip if yesterday is already saved)
+        id: gate
+        shell: bash
+        run: |
+          go=true
+          if [ "$GITHUB_EVENT_NAME" = "workflow_dispatch" ] && [ "${{ inputs.api_test_only }}" = "true" ]; then
+            go=false
+          fi
+          if [ "$GITHUB_EVENT_NAME" = "schedule" ] && [ "$(TZ=America/Los_Angeles date +%H)" != "03" ]; then
+            echo "Not 3am Pacific right now; skipping this trigger."
+            go=false
+          fi
+          yesterday=$(date -u -d yesterday +%F)
+          if grep -q "$yesterday" running_injury_adjusted_wins.csv; then
+            echo "Data for $yesterday is already saved; skipping."
+            go=false
+          fi
+          echo "go=$go" >> "$GITHUB_OUTPUT"
+
+      - name: Build today's data
+        if: steps.gate.outputs.go == 'true'
+        shell: bash
+        run: |
+          python daily_injury_adjusted_nba_wins.py 2>&1 | tee run.log
+          if grep -q "Error processing game" run.log; then
+            echo "::error::Some box scores failed to download, so nothing was published."
+            exit 1
+          fi
+
+      - name: Build the web page
+        if: steps.gate.outputs.go == 'true'
+        run: python build_dashboard.py
+
+      - name: Save and publish
+        if: steps.gate.outputs.go == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html running_injury_adjusted_wins.csv running_injured_players.csv
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+          git commit -m "Update dashboard $(date -u -d yesterday +%F)"
+          git push
