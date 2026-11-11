@@ -1052,75 +1052,127 @@ GAME_DATE,GAME_ID,TEAM_ABBREVIATION,PLAYER_NAME,COMMENT,PLAYER_DPM_SCALED,PCT_OF
 2026-11-08,22600202,MIA,Keshad Johnson,Inactive (NBA Inactive Players list),4.0,0.0731
 2026-11-08,22600202,MIA,Vladislav Goldin,Inactive (NBA Inactive Players list),0.6,0.011
 2026-11-08,22600202,MIA,Tre Donaldson,Inactive (NBA Inactive Players list),1.5,0.0274
-2026-11-09,0022600209,PHX,Jordan Goodwin,Inactive (NBA Inactive Players list),4.2,0.0757
-2026-11-09,0022600209,PHX,Mark Williams,Inactive (NBA Inactive Players list),3.5,0.0631
-2026-11-09,0022600209,PHX,Drew Timme,Inactive (NBA Inactive Players list),1.7,0.0306
-2026-11-09,0022600209,SAS,Tobias Harris,Inactive (NBA Inactive Players list),4.8,0.0773
-2026-11-09,0022600209,SAS,Devin Vassell,Inactive (NBA Inactive Players list),5.2,0.0837
-2026-11-09,0022600209,SAS,Jayden Quaintance,Inactive (NBA Inactive Players list),0.5,0.0081
-2026-11-09,0022600209,SAS,Ja'Kobi Gillespie,Inactive (NBA Inactive Players list),1.4,0.0225
-2026-11-09,0022600209,SAS,Maliq Brown,Inactive (NBA Inactive Players list),1.7,0.0274
-2026-11-09,0022600203,ATL,Jalen Wilson,Inactive (NBA Inactive Players list),1.8,0.0317
-2026-11-09,0022600203,ATL,Mouhamed Gueye,Inactive (NBA Inactive Players list),5.0,0.088
-2026-11-09,0022600203,ATL,RayJ Dennis,Inactive (NBA Inactive Players list),2.0,0.0352
-2026-11-09,0022600203,ATL,Asa Newell,Inactive (NBA Inactive Players list),3.0,0.0528
-2026-11-09,0022600203,ATL,Keshon Gilbert,Inactive (NBA Inactive Players list),1.7,0.0299
-2026-11-09,0022600203,ATL,Henri Veesaar,Inactive (NBA Inactive Players list),0.5,0.0088
-2026-11-09,0022600203,LAL,Chris Manon,Inactive (NBA Inactive Players list),2.5,0.0403
-2026-11-09,0022600203,LAL,Arthur Kaluma,Inactive (NBA Inactive Players list),1.5,0.0242
-2026-11-09,0022600203,LAL,Quentin Grimes,Inactive (NBA Inactive Players list),2.7,0.0435
-2026-11-09,0022600203,LAL,Austin Reaves,Inactive (NBA Inactive Players list),5.4,0.087
-2026-11-09,0022600206,TOR,Kawhi Leonard,Inactive (NBA Inactive Players list),9.8,0.1553
-2026-11-09,0022600206,TOR,Collin Murray-Boyles,Inactive (NBA Inactive Players list),4.9,0.0777
-2026-11-09,0022600206,TOR,Nate Bittle,Inactive (NBA Inactive Players list),0.8,0.0127
-2026-11-09,0022600206,TOR,Immanuel Quickley,Inactive (NBA Inactive Players list),5.0,0.0792
-2026-11-09,0022600206,TOR,Scottie Barnes,Inactive (NBA Inactive Players list),6.9,0.1094
-2026-11-09,0022600206,MEM,Isaiah Stewart,Inactive (NBA Inactive Players list),2.3,0.0414
-2026-11-09,0022600206,MEM,Scotty Pippen Jr.,Inactive (NBA Inactive Players list),4.1,0.0739
-2026-11-09,0022600206,MEM,Jahmai Mashack,Inactive (NBA Inactive Players list),1.2,0.0216
-2026-11-09,0022600206,MEM,Karim Lopez,Inactive (NBA Inactive Players list),1.9,0.0342
-2026-11-09,0022600207,DAL,Dereck Lively II,Inactive (NBA Inactive Players list),4.8,0.0982
-2026-11-09,0022600207,DAL,Tarik Biberovic,Inactive (NBA Inactive Players list),1.5,0.0307
-2026-11-09,0022600207,DAL,Morez Johnson Jr.,Inactive (NBA Inactive Players list),1.0,0.0204
-2026-11-09,0022600207,DAL,Sergio de Larrea,Inactive (NBA Inactive Players list),1.9,0.0389
-2026-11-09,0022600207,IND,Tyrese Haliburton,Inactive (NBA Inactive Players list),6.6,0.1121
-2026-11-09,0022600207,IND,Johnny Furphy,Inactive (NBA Inactive Players list),3.3,0.056
-2026-11-09,0022600207,IND,Kobe Brown,Inactive (NBA Inactive Players list),2.5,0.0424
-2026-11-09,0022600207,IND,Ben Sheppard,Inactive (NBA Inactive Players list),2.0,0.034
-2026-11-09,0022600205,DET,Jalen Duren,Inactive (NBA Inactive Players list),5.5,0.0849
-2026-11-09,0022600205,DET,Isaiah Joe,Inactive (NBA Inactive Players list),5.0,0.0772
-2026-11-09,0022600205,DET,Elijah Harkless,Inactive (NBA Inactive Players list),2.9,0.0448
-2026-11-09,0022600205,DET,Ugonna Onyenso,Inactive (NBA Inactive Players list),0.4,0.0062
-2026-11-09,0022600205,WAS,Jamir Watkins,Inactive (NBA Inactive Players list),3.7,0.083
-2026-11-09,0022600205,WAS,Justin Champagnie,Inactive (NBA Inactive Players list),4.5,0.1009
-2026-11-09,0022600205,WAS,Bilal Coulibaly,Inactive (NBA Inactive Players list),2.3,0.0516
-2026-11-09,0022600205,WAS,Reece Beekman,Inactive (NBA Inactive Players list),1.6,0.0359
-2026-11-09,0022600205,WAS,Tristan Vukcevic,Inactive (NBA Inactive Players list),4.1,0.0919
-2026-11-09,0022600208,HOU,Quadir Copeland,Inactive (NBA Inactive Players list),1.6,0.0219
-2026-11-09,0022600208,HOU,Julian Phillips,Inactive (NBA Inactive Players list),3.4,0.0466
-2026-11-09,0022600208,HOU,Oscar Tshiebwe,Inactive (NBA Inactive Players list),5.0,0.0685
-2026-11-09,0022600208,DEN,Julian Strawther,Inactive (NBA Inactive Players list),2.4,0.0392
-2026-11-09,0022600208,DEN,Cam Whitmore,Inactive (NBA Inactive Players list),2.6,0.0424
-2026-11-09,0022600208,DEN,Ryan Nembhard,Inactive (NBA Inactive Players list),1.8,0.0294
-2026-11-09,0022600204,CHA,Dennis Schroder,Inactive (NBA Inactive Players list),1.4,0.0248
-2026-11-09,0022600204,CHA,Grant Williams,Inactive (NBA Inactive Players list),5.1,0.0903
-2026-11-09,0022600204,CHA,Kon Knueppel,Inactive (NBA Inactive Players list),5.1,0.0903
-2026-11-09,0022600204,CHA,Kylan Boswell,Inactive (NBA Inactive Players list),1.0,0.0177
-2026-11-09,0022600204,CHA,Moussa Diabate,Inactive (NBA Inactive Players list),5.2,0.092
-2026-11-09,0022600204,CHA,Brandon Miller,Inactive (NBA Inactive Players list),5.1,0.0903
-2026-11-09,0022600204,CLE,Sam Merrill,Inactive (NBA Inactive Players list),4.0,0.0698
-2026-11-09,0022600204,CLE,Khalifa Diop,Inactive (NBA Inactive Players list),0.7,0.0122
-2026-11-09,0022600204,CLE,Nae'Qwan Tomlin,Inactive (NBA Inactive Players list),3.5,0.0611
-2026-11-09,0022600204,CLE,Jaylon Tyson,Inactive (NBA Inactive Players list),3.1,0.0541
-2026-11-09,0022600204,CLE,"Ernest Udeh, Jr.",Inactive (NBA Inactive Players list),0.2,0.0035
-2026-11-09,0022600210,GSW,Gary Payton II,DND - Injury/Illness,3.7,0.0539
-2026-11-09,0022600210,GSW,Will Richard,Inactive (NBA Inactive Players list),3.4,0.0495
-2026-11-09,0022600210,GSW,Moses Moody,Inactive (NBA Inactive Players list),4.8,0.0699
-2026-11-09,0022600210,GSW,Jimmy Butler III,Inactive (NBA Inactive Players list),5.7,0.083
-2026-11-09,0022600210,GSW,Kristaps Porzingis,Inactive (NBA Inactive Players list),5.1,0.0742
-2026-11-09,0022600210,NOP,Zion Williamson,Inactive (NBA Inactive Players list),5.0,0.1089
-2026-11-09,0022600210,NOP,Trey Murphy III,Inactive (NBA Inactive Players list),4.1,0.0893
-2026-11-09,0022600210,NOP,Trendon Watford,Inactive (NBA Inactive Players list),1.9,0.0414
-2026-11-09,0022600210,NOP,Yves Missi,Inactive (NBA Inactive Players list),3.2,0.0697
-2026-11-09,0022600210,NOP,Jaron Pierre Jr.,Inactive (NBA Inactive Players list),1.2,0.0261
-2026-11-09,0022600210,NOP,Malik Dia,Inactive (NBA Inactive Players list),1.3,0.0283
+2026-11-09,22600209,PHX,Jordan Goodwin,Inactive (NBA Inactive Players list),4.2,0.0757
+2026-11-09,22600209,PHX,Mark Williams,Inactive (NBA Inactive Players list),3.5,0.0631
+2026-11-09,22600209,PHX,Drew Timme,Inactive (NBA Inactive Players list),1.7,0.0306
+2026-11-09,22600209,SAS,Tobias Harris,Inactive (NBA Inactive Players list),4.8,0.0773
+2026-11-09,22600209,SAS,Devin Vassell,Inactive (NBA Inactive Players list),5.2,0.0837
+2026-11-09,22600209,SAS,Jayden Quaintance,Inactive (NBA Inactive Players list),0.5,0.0081
+2026-11-09,22600209,SAS,Ja'Kobi Gillespie,Inactive (NBA Inactive Players list),1.4,0.0225
+2026-11-09,22600209,SAS,Maliq Brown,Inactive (NBA Inactive Players list),1.7,0.0274
+2026-11-09,22600203,ATL,Jalen Wilson,Inactive (NBA Inactive Players list),1.8,0.0317
+2026-11-09,22600203,ATL,Mouhamed Gueye,Inactive (NBA Inactive Players list),5.0,0.088
+2026-11-09,22600203,ATL,RayJ Dennis,Inactive (NBA Inactive Players list),2.0,0.0352
+2026-11-09,22600203,ATL,Asa Newell,Inactive (NBA Inactive Players list),3.0,0.0528
+2026-11-09,22600203,ATL,Keshon Gilbert,Inactive (NBA Inactive Players list),1.7,0.0299
+2026-11-09,22600203,ATL,Henri Veesaar,Inactive (NBA Inactive Players list),0.5,0.0088
+2026-11-09,22600203,LAL,Chris Manon,Inactive (NBA Inactive Players list),2.5,0.0403
+2026-11-09,22600203,LAL,Arthur Kaluma,Inactive (NBA Inactive Players list),1.5,0.0242
+2026-11-09,22600203,LAL,Quentin Grimes,Inactive (NBA Inactive Players list),2.7,0.0435
+2026-11-09,22600203,LAL,Austin Reaves,Inactive (NBA Inactive Players list),5.4,0.087
+2026-11-09,22600206,TOR,Kawhi Leonard,Inactive (NBA Inactive Players list),9.8,0.1553
+2026-11-09,22600206,TOR,Collin Murray-Boyles,Inactive (NBA Inactive Players list),4.9,0.0777
+2026-11-09,22600206,TOR,Nate Bittle,Inactive (NBA Inactive Players list),0.8,0.0127
+2026-11-09,22600206,TOR,Immanuel Quickley,Inactive (NBA Inactive Players list),5.0,0.0792
+2026-11-09,22600206,TOR,Scottie Barnes,Inactive (NBA Inactive Players list),6.9,0.1094
+2026-11-09,22600206,MEM,Isaiah Stewart,Inactive (NBA Inactive Players list),2.3,0.0414
+2026-11-09,22600206,MEM,Scotty Pippen Jr.,Inactive (NBA Inactive Players list),4.1,0.0739
+2026-11-09,22600206,MEM,Jahmai Mashack,Inactive (NBA Inactive Players list),1.2,0.0216
+2026-11-09,22600206,MEM,Karim Lopez,Inactive (NBA Inactive Players list),1.9,0.0342
+2026-11-09,22600207,DAL,Dereck Lively II,Inactive (NBA Inactive Players list),4.8,0.0982
+2026-11-09,22600207,DAL,Tarik Biberovic,Inactive (NBA Inactive Players list),1.5,0.0307
+2026-11-09,22600207,DAL,Morez Johnson Jr.,Inactive (NBA Inactive Players list),1.0,0.0204
+2026-11-09,22600207,DAL,Sergio de Larrea,Inactive (NBA Inactive Players list),1.9,0.0389
+2026-11-09,22600207,IND,Tyrese Haliburton,Inactive (NBA Inactive Players list),6.6,0.1121
+2026-11-09,22600207,IND,Johnny Furphy,Inactive (NBA Inactive Players list),3.3,0.056
+2026-11-09,22600207,IND,Kobe Brown,Inactive (NBA Inactive Players list),2.5,0.0424
+2026-11-09,22600207,IND,Ben Sheppard,Inactive (NBA Inactive Players list),2.0,0.034
+2026-11-09,22600205,DET,Jalen Duren,Inactive (NBA Inactive Players list),5.5,0.0849
+2026-11-09,22600205,DET,Isaiah Joe,Inactive (NBA Inactive Players list),5.0,0.0772
+2026-11-09,22600205,DET,Elijah Harkless,Inactive (NBA Inactive Players list),2.9,0.0448
+2026-11-09,22600205,DET,Ugonna Onyenso,Inactive (NBA Inactive Players list),0.4,0.0062
+2026-11-09,22600205,WAS,Jamir Watkins,Inactive (NBA Inactive Players list),3.7,0.083
+2026-11-09,22600205,WAS,Justin Champagnie,Inactive (NBA Inactive Players list),4.5,0.1009
+2026-11-09,22600205,WAS,Bilal Coulibaly,Inactive (NBA Inactive Players list),2.3,0.0516
+2026-11-09,22600205,WAS,Reece Beekman,Inactive (NBA Inactive Players list),1.6,0.0359
+2026-11-09,22600205,WAS,Tristan Vukcevic,Inactive (NBA Inactive Players list),4.1,0.0919
+2026-11-09,22600208,HOU,Quadir Copeland,Inactive (NBA Inactive Players list),1.6,0.0219
+2026-11-09,22600208,HOU,Julian Phillips,Inactive (NBA Inactive Players list),3.4,0.0466
+2026-11-09,22600208,HOU,Oscar Tshiebwe,Inactive (NBA Inactive Players list),5.0,0.0685
+2026-11-09,22600208,DEN,Julian Strawther,Inactive (NBA Inactive Players list),2.4,0.0392
+2026-11-09,22600208,DEN,Cam Whitmore,Inactive (NBA Inactive Players list),2.6,0.0424
+2026-11-09,22600208,DEN,Ryan Nembhard,Inactive (NBA Inactive Players list),1.8,0.0294
+2026-11-09,22600204,CHA,Dennis Schroder,Inactive (NBA Inactive Players list),1.4,0.0248
+2026-11-09,22600204,CHA,Grant Williams,Inactive (NBA Inactive Players list),5.1,0.0903
+2026-11-09,22600204,CHA,Kon Knueppel,Inactive (NBA Inactive Players list),5.1,0.0903
+2026-11-09,22600204,CHA,Kylan Boswell,Inactive (NBA Inactive Players list),1.0,0.0177
+2026-11-09,22600204,CHA,Moussa Diabate,Inactive (NBA Inactive Players list),5.2,0.092
+2026-11-09,22600204,CHA,Brandon Miller,Inactive (NBA Inactive Players list),5.1,0.0903
+2026-11-09,22600204,CLE,Sam Merrill,Inactive (NBA Inactive Players list),4.0,0.0698
+2026-11-09,22600204,CLE,Khalifa Diop,Inactive (NBA Inactive Players list),0.7,0.0122
+2026-11-09,22600204,CLE,Nae'Qwan Tomlin,Inactive (NBA Inactive Players list),3.5,0.0611
+2026-11-09,22600204,CLE,Jaylon Tyson,Inactive (NBA Inactive Players list),3.1,0.0541
+2026-11-09,22600204,CLE,"Ernest Udeh, Jr.",Inactive (NBA Inactive Players list),0.2,0.0035
+2026-11-09,22600210,GSW,Gary Payton II,DND - Injury/Illness,3.7,0.0539
+2026-11-09,22600210,GSW,Will Richard,Inactive (NBA Inactive Players list),3.4,0.0495
+2026-11-09,22600210,GSW,Moses Moody,Inactive (NBA Inactive Players list),4.8,0.0699
+2026-11-09,22600210,GSW,Jimmy Butler III,Inactive (NBA Inactive Players list),5.7,0.083
+2026-11-09,22600210,GSW,Kristaps Porzingis,Inactive (NBA Inactive Players list),5.1,0.0742
+2026-11-09,22600210,NOP,Zion Williamson,Inactive (NBA Inactive Players list),5.0,0.1089
+2026-11-09,22600210,NOP,Trey Murphy III,Inactive (NBA Inactive Players list),4.1,0.0893
+2026-11-09,22600210,NOP,Trendon Watford,Inactive (NBA Inactive Players list),1.9,0.0414
+2026-11-09,22600210,NOP,Yves Missi,Inactive (NBA Inactive Players list),3.2,0.0697
+2026-11-09,22600210,NOP,Jaron Pierre Jr.,Inactive (NBA Inactive Players list),1.2,0.0261
+2026-11-09,22600210,NOP,Malik Dia,Inactive (NBA Inactive Players list),1.3,0.0283
+2026-11-10,0022600211,NYK,Jaden Akins,Inactive (NBA Inactive Players list),1.2,0.0202
+2026-11-10,0022600211,NYK,Tyler Nickel,Inactive (NBA Inactive Players list),1.4,0.0236
+2026-11-10,0022600211,NYK,Josh Hart,Inactive (NBA Inactive Players list),4.6,0.0774
+2026-11-10,0022600211,MIL,Tyler Herro,Inactive (NBA Inactive Players list),4.6,0.0989
+2026-11-10,0022600211,MIL,Pete Nance,Inactive (NBA Inactive Players list),2.9,0.0624
+2026-11-10,0022600211,MIL,Cormac Ryan,Inactive (NBA Inactive Players list),4.1,0.0882
+2026-11-10,0022600211,MIL,Kam Jones,Inactive (NBA Inactive Players list),2.2,0.0473
+2026-11-10,0022600212,PHI,Tacko Fall,Inactive (NBA Inactive Players list),3.1,0.051
+2026-11-10,0022600212,PHI,Ariel Hukporti,Inactive (NBA Inactive Players list),2.4,0.0395
+2026-11-10,0022600212,PHI,Caleb Love,Inactive (NBA Inactive Players list),0.7,0.0115
+2026-11-10,0022600212,PHI,Dominick Barlow,Inactive (NBA Inactive Players list),3.5,0.0576
+2026-11-10,0022600212,PHI,Adem Bona,Inactive (NBA Inactive Players list),3.0,0.0493
+2026-11-10,0022600212,BOS,Devin Carter,Inactive (NBA Inactive Players list),3.6,0.0503
+2026-11-10,0022600212,BOS,Amari Williams,Inactive (NBA Inactive Players list),1.6,0.0224
+2026-11-10,0022600213,PHX,Duop Reath,Inactive (NBA Inactive Players list),2.8,0.0505
+2026-11-10,0022600213,PHX,Pat Spencer,Inactive (NBA Inactive Players list),2.2,0.0396
+2026-11-10,0022600213,PHX,Mark Williams,Inactive (NBA Inactive Players list),3.5,0.0631
+2026-11-10,0022600213,PHX,Drew Timme,Inactive (NBA Inactive Players list),1.7,0.0306
+2026-11-10,0022600213,LAC,Bradley Beal,Inactive (NBA Inactive Players list),2.1,0.0378
+2026-11-10,0022600213,LAC,Brandon Ingram,Inactive (NBA Inactive Players list),4.2,0.0755
+2026-11-10,0022600213,LAC,Jordan Miller,Inactive (NBA Inactive Players list),4.1,0.0737
+2026-11-10,0022600213,LAC,Cam Christie,Inactive (NBA Inactive Players list),1.5,0.027
+2026-11-10,0022600213,LAC,Yanic Konan Niederhauser,Inactive (NBA Inactive Players list),2.7,0.0486
+2026-11-10,0022600213,LAC,Nick Martinelli,Inactive (NBA Inactive Players list),1.3,0.0234
+2026-11-10,0022600215,SAC,Ben Simmons,Inactive (NBA Inactive Players list),3.2,0.0877
+2026-11-10,0022600215,SAC,Jonathan Mogbo,Inactive (NBA Inactive Players list),2.9,0.0795
+2026-11-10,0022600215,SAC,Maxime Raynaud,Inactive (NBA Inactive Players list),1.8,0.0493
+2026-11-10,0022600215,ORL,Izaiyah Nelson,Inactive (NBA Inactive Players list),0.7,0.0119
+2026-11-10,0022600215,ORL,Noah Penda,Inactive (NBA Inactive Players list),3.0,0.0509
+2026-11-10,0022600215,ORL,Jonathan Isaac,Inactive (NBA Inactive Players list),4.8,0.0815
+2026-11-10,0022600215,ORL,Jalen Suggs,Inactive (NBA Inactive Players list),5.3,0.09
+2026-11-10,0022600215,ORL,Paolo Banchero,Inactive (NBA Inactive Players list),5.0,0.0849
+2026-11-10,0022600215,ORL,Tristan da Silva,Inactive (NBA Inactive Players list),3.3,0.056
+2026-11-10,0022600214,UTA,Jusuf Nurkic,Inactive (NBA Inactive Players list),3.2,0.061
+2026-11-10,0022600214,UTA,Lauri Markkanen,Inactive (NBA Inactive Players list),5.3,0.101
+2026-11-10,0022600214,UTA,Jaren Jackson Jr.,Inactive (NBA Inactive Players list),5.2,0.099
+2026-11-10,0022600214,UTA,Keyonte George,Inactive (NBA Inactive Players list),2.4,0.0457
+2026-11-10,0022600214,UTA,Trey Alexander,Inactive (NBA Inactive Players list),2.5,0.0476
+2026-11-10,0022600214,MIA,Vladislav Goldin,Inactive (NBA Inactive Players list),0.6,0.011
+2026-11-10,0022600214,MIA,Tre Donaldson,Inactive (NBA Inactive Players list),1.5,0.0274
+2026-11-10,0022600216,POR,John Tonje,Inactive (NBA Inactive Players list),1.6,0.0247
+2026-11-10,0022600216,POR,Jayson Kent,Inactive (NBA Inactive Players list),1.2,0.0185
+2026-11-10,0022600216,POR,Shaedon Sharpe,Inactive (NBA Inactive Players list),3.9,0.0603
+2026-11-10,0022600216,POR,Ja Morant,Inactive (NBA Inactive Players list),5.9,0.0912
+2026-11-10,0022600216,POR,Vit Krejci,Inactive (NBA Inactive Players list),3.3,0.051
+2026-11-10,0022600216,OKC,Chet Holmgren,Inactive (NBA Inactive Players list),7.8,0.1089
+2026-11-10,0022600216,OKC,Jalen Williams,Inactive (NBA Inactive Players list),5.7,0.0796
+2026-11-10,0022600216,OKC,Jaylin Williams,Inactive (NBA Inactive Players list),4.3,0.0601
+2026-11-10,0022600216,OKC,Cason Wallace,Inactive (NBA Inactive Players list),5.8,0.081
+2026-11-10,0022600216,OKC,Nikola Topic,Inactive (NBA Inactive Players list),2.7,0.0377
+2026-11-10,0022600216,OKC,Thomas Sorber,Inactive (NBA Inactive Players list),2.7,0.0377
+2026-11-10,0022600216,OKC,Josh Dix,Inactive (NBA Inactive Players list),1.6,0.0223
